@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+    background: #052f47;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+#container{
+    margin: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.post{
+    background: white;
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.post-header{
+    display: flex;
+}
+
+.post-header-img img{
+    width: 70px;
+    clip-path: circle();
+}
+
+.post-header-info{
+    height: 70px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post-header-info p:first-child{
+    font-weight: 800;
+}
+
+.post-header-info p:nth-child(2){
+    font-size: 0.8rem;
+    color: #2e2e2e;
+}
+
+.post-content{
+    margin: 20px 0;
+}
+
+.post-content img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.post-footer{
+    display: flex;
+    justify-content: stretch;
+}
+
+.post-footer button{
+    width: 50%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 1rem;
+    color: #2e2e2e;
+}
+
+.post-footer button:hover{
+    color: #052f47;
+}
+
+.post-footer p{
+    width: 50%;
+    text-align: center;
+    color: #2e2e2e;
+}
+
+.post-footer span{
+    color: black;
+    font-weight: bold;
+}
+
+.nopic{
+    width: 70px;
+    height: 70px;
+    clip-path: circle();
+    text-align: center;
+    font-weight: bold;
+    line-height: 70px;
+    font-size: 2rem;
+}
+
+.liked{
+    color: #052f47;
+}
